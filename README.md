@@ -1,4 +1,4 @@
-A Small scale SQL Server Prison Management System
+A Small scale SQL Server Prison Management System.
 DESCRIPTION:
 The system maintains detailed records of legal cases with the CaseFile table, storing information like case ID, court date, verdict, prosecutor in charge, and crime details. Inmates, the central focus of the system, are managed through the Inmate table, capturing personal details, admission and release dates, and crime information. Inmates are assigned to specific rooms and associated with their respective cases.
 At the core of the system is the Section table, capturing information about different sections within the prison, such as the total number of rooms and currently occupied rooms. Each room is uniquely identified by a RoomID in Room and is associated with a particular section through a foreign key relationship.
